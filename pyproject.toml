@@ -1,0 +1,16 @@
+[project]
+name = "SM-API-Developer-Portal"
+version = "2.0.0"
+description = "API 开发者门户：API 注册、应用、订阅、API Key 与用量统计"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 200
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
