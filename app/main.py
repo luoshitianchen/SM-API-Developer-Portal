@@ -13,7 +13,7 @@ from pydantic import BaseModel, Field
 from app import base
 
 SERVICE = "sm-api-developer-portal"
-VERSION = "2.0.0"
+VERSION = "3.0.0"
 NAME = "SM API Developer Portal"
 DESCRIPTION = "API 开发者门户：API 注册、应用、订阅、API Key 与用量统计"
 PORT = 8440
